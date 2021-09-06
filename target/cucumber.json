@@ -1,0 +1,2198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-06T04:21:22.698Z",
+        "line": 11,
+        "name": "Obtain user details with a valid username",
+        "description": "",
+        "id": "users-rest-api-test;obtain-user-details-with-a-valid-username;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2254130000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is already registered an account with \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54421000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a client app attempts to request user \"admin\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488926000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the success response have 200 \"The Admin\" \"admin\" \"admin@somewhere.com\" \"1984-09-18\" \"Create all.\" \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"The Admin\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"admin@somewhere.com\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"1984-09-18\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"Create all.\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 99
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:25.631Z",
+        "line": 12,
+        "name": "Obtain user details with a valid username",
+        "description": "",
+        "id": "users-rest-api-test;obtain-user-details-with-a-valid-username;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45692000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is already registered an account with \"tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44319000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a client app attempts to request user \"tester\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87588000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the success response have 200 \"The Tester\" \"tester\" \"tester@somewhere.com\" \"2014-07-15\" \"Test.\" \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"The Tester\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"tester\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"tester@somewhere.com\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"2014-07-15\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"Test.\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 96
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:25.827Z",
+        "line": 13,
+        "name": "Obtain user details with a valid username",
+        "description": "",
+        "id": "users-rest-api-test;obtain-user-details-with-a-valid-username;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34229000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is already registered an account with \"dev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46075000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a client app attempts to request user \"dev\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81008000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the success response have 200 \"The Dev\" \"dev\" \"dev@somewhere.com\" \"1999-10-10\" \"Code and debug.\" \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"The Dev\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"dev\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"dev@somewhere.com\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"1999-10-10\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"Code and debug.\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 97
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:26.003Z",
+        "line": 23,
+        "name": "get access with valid credentials",
+        "description": "",
+        "id": "users-rest-api-test;get-access-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39881000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is already registered an account with \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223173000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a client app attempts to get access using \"admin\" \"power\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"power\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToGetAccessUsing(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69374000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the success response have 200 \"The Admin\" \"admin\" \"admin@somewhere.com\" \"1984-09-18\" \"Create all.\" \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"The Admin\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"admin@somewhere.com\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"1984-09-18\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"Create all.\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 99
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getaccess"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:26.344Z",
+        "line": 24,
+        "name": "get access with valid credentials",
+        "description": "",
+        "id": "users-rest-api-test;get-access-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22543000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is already registered an account with \"tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137200000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a client app attempts to get access using \"tester\" \"maniac\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToGetAccessUsing(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128433000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the success response have 200 \"The Tester\" \"tester\" \"tester@somewhere.com\" \"2014-07-15\" \"Test.\" \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"The Tester\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"tester\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"tester@somewhere.com\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"2014-07-15\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"Test.\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 96
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getaccess"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:26.649Z",
+        "line": 25,
+        "name": "get access with valid credentials",
+        "description": "",
+        "id": "users-rest-api-test;get-access-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28780000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user is already registered an account with \"dev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130201000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a client app attempts to get access using \"dev\" \"wizard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"wizard\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToGetAccessUsing(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51101000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the success response have 200 \"The Dev\" \"dev\" \"dev@somewhere.com\" \"1999-10-10\" \"Code and debug.\" \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"The Dev\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"dev\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"dev@somewhere.com\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"1999-10-10\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"Code and debug.\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 97
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getaccess"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:26.875Z",
+        "line": 33,
+        "name": "Validate error message while obtaining invalid user",
+        "description": "",
+        "id": "users-rest-api-test;validate-error-message-while-obtaining-invalid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56803000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "a client app attempts to request user \"dev1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32987000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the error response have 404 \"Not Found\" \"Username dev1 does not exist.\" \"uri\u003d/api/v1/users/details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Not Found\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Username dev1 does not exist.\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"uri\u003d/api/v1/users/details\"",
+                  "offset": 72
+                }
+              ],
+              "location": "steps.LoginAPISteps.theErrorResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:26.974Z",
+        "line": 34,
+        "name": "Validate error message while obtaining invalid user",
+        "description": "",
+        "id": "users-rest-api-test;validate-error-message-while-obtaining-invalid-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28252000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "a client app attempts to request user \"admin1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34389000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the error response have 404 \"Not Found\" \"Username admin1 does not exist.\" \"uri\u003d/api/v1/users/details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Not Found\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Username admin1 does not exist.\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"uri\u003d/api/v1/users/details\"",
+                  "offset": 74
+                }
+              ],
+              "location": "steps.LoginAPISteps.theErrorResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:27.049Z",
+        "line": 35,
+        "name": "Validate error message while obtaining invalid user",
+        "description": "",
+        "id": "users-rest-api-test;validate-error-message-while-obtaining-invalid-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 74981000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "a client app attempts to request user \"tester1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43956000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the error response have 404 \"Not Found\" \"Username tester1 does not exist.\" \"uri\u003d/api/v1/users/details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Not Found\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Username tester1 does not exist.\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"uri\u003d/api/v1/users/details\"",
+                  "offset": 75
+                }
+              ],
+              "location": "steps.LoginAPISteps.theErrorResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:27.188Z",
+        "line": 44,
+        "name": "Obtain user details with a valid username and \"Valid details\" after registration",
+        "description": "",
+        "id": "users-rest-api-test;obtain-user-details-with-a-valid-username-and-\"\u003cscenario\u003e\"-after-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 406245000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "register account with \"Scrum master\" \"scrummaster\" \"w0r!d\" \"scrummaster@somewhere.com\" \"1985-01-01\" \"scrum\" \"false\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrum master\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"scrummaster@somewhere.com\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"scrum\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 108
+                },
+                {
+                  "val": "201",
+                  "offset": 116
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32463000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a client app attempts to request user \"scrummaster\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69353000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the success response have 200 \"Scrum master\" \"scrummaster\" \"scrummaster@somewhere.com\" \"1985-01-01\" \"scrum\" \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Scrum master\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"scrummaster@somewhere.com\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"scrum\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 108
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:27.707Z",
+        "line": 45,
+        "name": "Obtain user details with a valid username and \"Valid details\" after registration",
+        "description": "",
+        "id": "users-rest-api-test;obtain-user-details-with-a-valid-username-and-\"\u003cscenario\u003e\"-after-registration;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 132314000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "register account with \"Finance Admin\" \"financeAdmin\" \"w0r!d\" \"financeAdmin@somewhere.com\" \"1982-01-01\" \"Super all.\" \"true\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Finance Admin\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"financeAdmin\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"financeAdmin@somewhere.com\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"1982-01-01\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"Super all.\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 116
+                },
+                {
+                  "val": "201",
+                  "offset": 123
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29457000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a client app attempts to request user \"financeAdmin\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"financeAdmin\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73522000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the success response have 200 \"Finance Admin\" \"financeAdmin\" \"financeAdmin@somewhere.com\" \"1982-01-01\" \"Super all.\" \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Finance Admin\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"financeAdmin\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"financeAdmin@somewhere.com\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"1982-01-01\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"Super all.\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 116
+                }
+              ],
+              "location": "steps.LoginAPISteps.theSuccessResponseShouldBeAJSONObjectEqualTo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:27.954Z",
+        "line": 54,
+        "name": "User registration with invalid detail \"Invalid email id\"",
+        "description": "",
+        "id": "users-rest-api-test;user-registration-with-invalid-detail-\"\u003cscenario\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Failed to match status code expected:\u003c400\u003e but was:\u003c201\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)\n\tat steps.LoginAPISteps.theUserRegisteredAnAccountWith(LoginAPISteps.java:51)\n\tat ✽.register account with \"Super Admin\" \"sheldon\" \"w0r!d\" \"superadmin\" \"1982-01-01\" \"Super all.\" \"true\" 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:49)\n",
+              "duration": 141385000,
+              "status": "failed"
+            },
+            "line": 49,
+            "name": "register account with \"Super Admin\" \"sheldon\" \"w0r!d\" \"superadmin\" \"1982-01-01\" \"Super all.\" \"true\" 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Super Admin\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"sheldon\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"superadmin\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"1982-01-01\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Super all.\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 93
+                },
+                {
+                  "val": "400",
+                  "offset": 100
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 957000,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "a client app attempts to request user \"sheldon\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sheldon\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 469000,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "verify 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:28.147Z",
+        "line": 55,
+        "name": "User registration with invalid detail \"Future date in DOB\"",
+        "description": "",
+        "id": "users-rest-api-test;user-registration-with-invalid-detail-\"\u003cscenario\u003e\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Failed to match status code expected:\u003c400\u003e but was:\u003c201\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)\n\tat steps.LoginAPISteps.theUserRegisteredAnAccountWith(LoginAPISteps.java:51)\n\tat ✽.register account with \"Super Admin\" \"penny\" \"w0r!d\" \"superadmin3@somewhere.com\" \"2051-01-02\" \"Super all.\" \"true\" 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:49)\n",
+              "duration": 133316000,
+              "status": "failed"
+            },
+            "line": 49,
+            "name": "register account with \"Super Admin\" \"penny\" \"w0r!d\" \"superadmin3@somewhere.com\" \"2051-01-02\" \"Super all.\" \"true\" 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Super Admin\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"penny\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"superadmin3@somewhere.com\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"2051-01-02\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Super all.\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 106
+                },
+                {
+                  "val": "400",
+                  "offset": 113
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "a client app attempts to request user \"penny\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"penny\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98000,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "verify 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:28.299Z",
+        "line": 56,
+        "name": "User registration with invalid detail \"Blank password\"",
+        "description": "",
+        "id": "users-rest-api-test;user-registration-with-invalid-detail-\"\u003cscenario\u003e\";;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Failed to match status code expected:\u003c400\u003e but was:\u003c201\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)\n\tat steps.LoginAPISteps.theUserRegisteredAnAccountWith(LoginAPISteps.java:51)\n\tat ✽.register account with \"Super Admin\" \"bernadedth\" \"\" \"superadmin4@somewhere.com\" \"1982-01-01\" \"Super all.\" \"true\" 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:49)\n",
+              "duration": 135412000,
+              "status": "failed"
+            },
+            "line": 49,
+            "name": "register account with \"Super Admin\" \"bernadedth\" \"\" \"superadmin4@somewhere.com\" \"1982-01-01\" \"Super all.\" \"true\" 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Super Admin\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"bernadedth\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"superadmin4@somewhere.com\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"1982-01-01\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Super all.\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 106
+                },
+                {
+                  "val": "400",
+                  "offset": 113
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 644000,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "a client app attempts to request user \"bernadedth\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bernadedth\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestUserDetails(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "verify 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:28.449Z",
+        "line": 65,
+        "name": "Get all user with \"admin\"",
+        "description": "",
+        "id": "users-rest-api-test;get-all-user-with-\"\u003cusername\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24993000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user is already registered an account with \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 526202000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "a client app attempts to request all user details with \"admin\" \"power\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"power\"",
+                  "offset": 63
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestAllUserDetailsWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 358000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "verify 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getall"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:29.027Z",
+        "line": 66,
+        "name": "Get all user with \"tester\"",
+        "description": "",
+        "id": "users-rest-api-test;get-all-user-with-\"\u003cusername\u003e\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23460000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user is already registered an account with \"tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109178000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "a client app attempts to request all user details with \"tester\" \"maniac\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"maniac\"",
+                  "offset": 64
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestAllUserDetailsWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 485000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "verify 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getall"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:29.172Z",
+        "line": 67,
+        "name": "Get all user with \"dev\"",
+        "description": "",
+        "id": "users-rest-api-test;get-all-user-with-\"\u003cusername\u003e\";;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13030000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user is already registered an account with \"dev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserIsAlreadyRegisteredAnAccountWith(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94916000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "a client app attempts to request all user details with \"dev\" \"wizard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"wizard\"",
+                  "offset": 61
+                }
+              ],
+              "location": "steps.LoginAPISteps.aClientAppAttemptsToRequestAllUserDetailsWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "verify 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@getall"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:29.311Z",
+        "line": 76,
+        "name": "Delete user",
+        "description": "",
+        "id": "users-rest-api-test;delete-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 232344000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "register account with \"Scrum master\" \"scrummaster\" \"w0r!d\" \"scrummaster@somewhere.com\" \"1985-01-01\" \"scrum\" \"false\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrum master\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"scrummaster@somewhere.com\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"scrum\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 108
+                },
+                {
+                  "val": "201",
+                  "offset": 116
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198371000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "admin delete the \"\u003cusersName\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusersName\u003e\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.LoginAPISteps.adminDeleteTheAccountItIsDeleted(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20883000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "verify \"\u003cusersName\u003e\" is deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusersName\u003e\"",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyUserIsDeleted(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@delete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:29.772Z",
+        "line": 86,
+        "name": "Update user",
+        "description": "",
+        "id": "users-rest-api-test;update-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 129994000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "register account with \"IT Admin2\" \"itadmin2\" \"w0r!d\" \"itadmin2@somewhere.com\" \"1989-01-01\" \"it admin\" \"false\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IT Admin2\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"itadmin2\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"itadmin2@somewhere.com\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"1989-01-01\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"it admin\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 102
+                },
+                {
+                  "val": "201",
+                  "offset": 110
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246845000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "update the existing user details \"itadmin2\" \"w0r!d\" \"Senior IT Admin\" \"senioritadmin@somewhere.com\" \"w0r!dnew\" \"1990-01-01\" \"IT Manager\" \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"itadmin2\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Senior IT Admin\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"senioritadmin@somewhere.com\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"w0r!dnew\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"1990-01-01\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"IT Manager\"",
+                  "offset": 124
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 137
+                }
+              ],
+              "location": "steps.LoginAPISteps.updateTheExistingUserDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37699000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Validate the \"itadmin2\" is updated with \"Senior IT Admin\" \"senioritadmin@somewhere.com\" \"w0r!dnew\" \"1990-01-01\" \"IT Manager\" \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"itadmin2\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Senior IT Admin\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"senioritadmin@somewhere.com\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"w0r!dnew\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"1990-01-01\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"IT Manager\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"true\"",
+                  "offset": 125
+                }
+              ],
+              "location": "steps.LoginAPISteps.validateTheIsUpdatedWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120472000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "admin delete the \"itadmin2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"itadmin2\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.LoginAPISteps.adminDeleteTheAccountItIsDeleted(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@update"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:30.313Z",
+        "line": 96,
+        "name": "Register already registered user and verify error",
+        "description": "",
+        "id": "users-rest-api-test;register-already-registered-user-and-verify-error;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 217910000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "register account with \"Scrum master\" \"scrummaster\" \"w0r!d\" \"scrummaster@somewhere.com\" \"1985-01-01\" \"scrum\" \"false\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrum master\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"scrummaster@somewhere.com\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"scrum\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 108
+                },
+                {
+                  "val": "201",
+                  "offset": 116
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20402000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "register user with \"Scrum master\" \"scrummaster\" \"w0r!d\" \"scrummaster@somewhere.com\" \"1985-01-01\" \"scrum\" \"false\" 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrum master\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"scrummaster@somewhere.com\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"scrum\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 105
+                },
+                {
+                  "val": "403",
+                  "offset": 113
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWithWhen(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11741000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "verify 403 and error \"Username or email already registered. Please select different values.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 7
+                },
+                {
+                  "val": "\"Username or email already registered. Please select different values.\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118263000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "admin delete the \"scrummaster\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scrummaster\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.LoginAPISteps.adminDeleteTheAccountItIsDeleted(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@new"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-06T04:21:30.688Z",
+        "line": 106,
+        "name": "Update userName and email of new user with userName already Registered",
+        "description": "",
+        "id": "users-rest-api-test;update-username-and-email-of-new-user-with-username-already-registered;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119184000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "register account with \"Devops user\" \"devops\" \"w0r!d\" \"devops@somewhere.com\" \"1985-01-01\" \"Infra\" \"false\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Devops user\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"devops\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"devops@somewhere.com\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"Infra\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 97
+                },
+                {
+                  "val": "201",
+                  "offset": 105
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126195000,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "register account with \"Info sec\" \"infosec\" \"w0r!d\" \"infosec@somewhere.com\" \"1985-01-11\" \"Infra\" \"false\" 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Info sec\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"infosec\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"infosec@somewhere.com\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"1985-01-11\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"Infra\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 96
+                },
+                {
+                  "val": "201",
+                  "offset": 104
+                }
+              ],
+              "location": "steps.LoginAPISteps.theUserRegisteredAnAccountWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303272000,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "\"infosec\" updated with \"devops\" \"Devops user\" \"w0r!d\" \"devops@somewhere.com\" \"1985-01-01\" \"Infra\" \"false\" 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"infosec\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"devops\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Devops user\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"w0r!d\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"devops@somewhere.com\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"1985-01-01\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"Infra\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 98
+                },
+                {
+                  "val": "400",
+                  "offset": 106
+                }
+              ],
+              "location": "steps.LoginAPISteps.updateUserDetail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Failed to match status code expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)\n\tat steps.LoginAPISteps.verifyGetStatusCode(LoginAPISteps.java:215)\n\tat ✽.verify 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:103)\n",
+              "duration": 1771000,
+              "status": "failed"
+            },
+            "line": 103,
+            "name": "verify 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 7
+                }
+              ],
+              "location": "steps.LoginAPISteps.verifyGetStatusCode(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users"
+          },
+          {
+            "name": "@update"
+          }
+        ]
+      }
+    ],
+    "name": "Users Rest API test",
+    "description": "",
+    "id": "users-rest-api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UsersEndPointFeature.feature",
+    "tags": []
+  }
+]

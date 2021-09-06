@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: runner.runTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 9.679 sec <<< FAILURE!
+User registration with invalid detail "Invalid email id"(Users Rest API test)  Time elapsed: 0.191 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to match status code expected:<400> but was:<201>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)
+	at steps.LoginAPISteps.theUserRegisteredAnAccountWith(LoginAPISteps.java:51)
+	at ✽.register account with "Super Admin" "sheldon" "w0r!d" "superadmin" "1982-01-01" "Super all." "true" 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:49)
+
+User registration with invalid detail "Future date in DOB"(Users Rest API test)  Time elapsed: 0.154 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to match status code expected:<400> but was:<201>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)
+	at steps.LoginAPISteps.theUserRegisteredAnAccountWith(LoginAPISteps.java:51)
+	at ✽.register account with "Super Admin" "penny" "w0r!d" "superadmin3@somewhere.com" "2051-01-02" "Super all." "true" 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:49)
+
+User registration with invalid detail "Blank password"(Users Rest API test)  Time elapsed: 0.148 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to match status code expected:<400> but was:<201>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)
+	at steps.LoginAPISteps.theUserRegisteredAnAccountWith(LoginAPISteps.java:51)
+	at ✽.register account with "Super Admin" "bernadedth" "" "superadmin4@somewhere.com" "1982-01-01" "Super all." "true" 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:49)
+
+Update userName and email of new user with userName already Registered(Users Rest API test)  Time elapsed: 0.566 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to match status code expected:<400> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at util.RestApiUtil.verifyStatusCode(RestApiUtil.java:75)
+	at steps.LoginAPISteps.verifyGetStatusCode(LoginAPISteps.java:215)
+	at ✽.verify 400(file:///Users/shiv/IdeaProjects/TestAutomation/src/test/resources/features/UsersEndPointFeature.feature:103)
+

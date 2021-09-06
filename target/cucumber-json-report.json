@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Set test env",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2329971000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Docker service is up and running",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.dockerServiceIsUpAndRunning()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T09:56:56.860Z",
+        "line": 6,
+        "name": "Login with get api",
+        "description": "",
+        "id": "rest-api-test;login-with-get-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is able to enter details",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.userIsAbleToEnterDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 804000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login via api",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.loginViaApi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2626000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "featuresteps.LoginFeatureSetps.responseIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Set test env",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 472949000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Docker service is up and running",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.dockerServiceIsUpAndRunning()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T09:56:59.300Z",
+        "line": 12,
+        "name": "Login with get api 2",
+        "description": "",
+        "id": "rest-api-test;login-with-get-api-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 835000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is able to enter details",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.userIsAbleToEnterDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "login via api",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.loginViaApi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2750000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "response is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "featuresteps.LoginFeatureSetps.responseIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rest API test",
+    "description": "",
+    "id": "rest-api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TestCase1.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-29T09:56:59.827Z",
+        "line": 6,
+        "name": "Correct error message is provided when searching for an order that does not exist",
+        "description": "",
+        "id": "order-tests;correct-error-message-is-provided-when-searching-for-an-order-that-does-not-exist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 502000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the Swagger Petstore API is available",
+            "match": {
+              "location": "featuresteps.LoginFeatureSetps.the_swagger_petstore_api_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Order Tests",
+    "description": "  This feature includes tests that test the store order RESTFul services",
+    "id": "order-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TestCase2.feature",
+    "tags": []
+  }
+]
