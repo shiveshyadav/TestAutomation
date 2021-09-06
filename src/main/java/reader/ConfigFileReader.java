@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigFileReader {
 
     private Properties properties;
-    private final String filePath= "src//env.properties";
+    private final String filePath= "src"+System.getProperty("file.separator")+"env.properties";
 
     public ConfigFileReader(){
         BufferedReader readProperty = null;
